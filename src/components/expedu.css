@@ -1,0 +1,42 @@
+.expandedu{
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+.zpacetech h2,h3,h4,h5{
+    font-family: "Playfair Display";
+}
+.zpacetech h3{
+    font-weight: 300;
+}
+.zpacetech h4{
+    font-weight: 200;
+}
+.zpacetech h5{
+    font-weight: 100;
+}
+.ajt h2,h3,h4,h5{
+    font-family: "Playfair Display";
+}
+.ajt h3{
+    font-weight: 300;
+}
+.ajt h4{
+    font-weight: 200;
+}
+.ajt h5{
+    font-weight: 100;
+}
+.graduation h2,h3,h4,h5{
+    font-family: "Playfair Display";
+}
+.graduation h3{
+    font-weight: 300;
+}
+.graduation h4{
+    font-weight: 200;
+}
+.graduation h5{
+    font-weight: 100;
+}
+

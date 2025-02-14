@@ -1,0 +1,136 @@
+
+.holographic-container{
+display: inline-flex;
+justify-content: center;
+align-items: center;
+height: auto;
+background: white;
+padding: 2rem;
+margin: 0;
+}
+
+.holographic-card{
+width: auto;
+height: auto;
+background: black;
+display:block;
+justify-content: center;
+align-items: center;
+text-align: center;
+overflow: hidden;
+padding: 1rem;
+transition: all 0.5s ease;
+animation: appear linear;
+animation-timeline: view();
+animation-range: entry 0 cover 30%;
+}
+
+.holographic-card h2 {
+color: white;
+font-size: 1.5rem;
+position: relative;
+z-index: 2;
+padding: 1rem;
+font-family: "Anton";
+font-weight: 600;
+}
+.holographic-card:hover h2{
+    color: black;
+     }
+     
+.holographic-card:hover p{
+    color: black;
+     }
+.holographic-card p {
+    color: white;
+    font-size: 0.75rem;
+    position: relative;
+    z-index: 2;
+    }
+
+.holographic-card:hover {
+transform: scale(1.05);
+box-shadow: 0 0 20px black;
+background-color: #ffd300;
+}
+
+@keyframes appear {
+    from{
+         opacity: 0;
+         scale: 0;
+    }
+    to{
+        opacity: 1;
+        scale: 1;
+    }
+}
+
+
+@media screen and (max-width:768px) {
+    
+.holographic-container{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    background: white;
+    padding: 2rem;
+    margin: 0;
+    }
+    
+    .holographic-card{
+    width: 300px;
+    height: 200px;
+    background: black;
+    display:block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    overflow: hidden;
+    padding: 1rem;
+    transition: all 0.5s ease;
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0 cover 30%;
+    }
+    
+    .holographic-card h2 {
+    color: white;
+    font-size: 1rem;
+    position: relative;
+    z-index: 2;
+    padding: 1rem;
+    font-family: "Anton";
+    }
+    .holographic-card:hover h2{
+        color: black;
+         }
+         
+    .holographic-card:hover p{
+        color: black;
+         }
+    .holographic-card p {
+        color: white;
+        font-size: 0.5rem;
+        position: relative;
+        z-index: 2;
+        }
+    
+    .holographic-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px black;
+    background-color: #ffd300;
+    }
+    
+    @keyframes appear {
+        from{
+             opacity: 0;
+             scale: 0;
+        }
+        to{
+            opacity: 1;
+            scale: 1;
+        }
+    }
+    
+}

@@ -1,0 +1,65 @@
+.navibar{
+    top: 0;
+    position: sticky;
+    height: 3rem;
+    width: 100%;
+    background-color: white;
+    align-items: center;
+}
+.navlist{
+    list-style: none;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    margin: 0 10vw;
+    height: 3rem;
+}
+.navlist li{
+    list-style:none;
+    transition:0.5s;
+    top: 1rem;
+}
+.navlist li a{
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    position: relative;
+    display: block;
+    font-weight: 500;
+    font-family: 'Anton';
+}
+.navlist:hover li a{
+    transform:scale(1);
+    opacity: 1;
+    filter:blur(0px);
+    color: black;
+  }
+.navlist li a:hover{
+  transform:scale(1.5);
+  opacity: 1;
+  filter:blur(0);
+  text-decoration:none;
+  color: white;
+}
+.navlist li a:before{
+    content:'';
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background: black;
+    transition: 0.3s;
+    transform-origin:right;
+    transform:scaleX(0);
+    z-index:-1;
+  }
+  .navlist li a:hover:before{
+    transition:transform 0.3s;
+    transform-origin:left;
+    transform:scaleX(1);
+  }
+  #menu{
+    display: none;
+  }
+  
