@@ -8,8 +8,8 @@ text-align: center;
 }
 
 .skillcontainer .box{
-    height: 85px;
-    width: 85px;
+    height: 100px;
+    width: 100px;
     background-color:black;
     border: 3px solid white;
     justify-content: center;
@@ -17,7 +17,7 @@ text-align: center;
     text-align: center;
     color: white;
     padding: 1.5rem;
-    font-size: 0.5rem;
+    font-size: 0.75rem;
     box-shadow: 0 20px 40px rgba(0,0,0,0.4);
     border-radius: 1rem;
     animation: appear linear;

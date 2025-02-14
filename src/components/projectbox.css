@@ -44,6 +44,7 @@ font-weight: 600;
 .holographic-card p {
     color: white;
     font-size: 0.75rem;
+    font-weight: 300;
     position: relative;
     z-index: 2;
     }
