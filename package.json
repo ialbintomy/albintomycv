@@ -1,5 +1,6 @@
 {
   "name": "frontend",
+  "homepage": "https://ialbintomy.github.io/albintomycv/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -7,10 +8,11 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "prepublish": "npm run build",
+    "publish": "gh-pages -d dist"
   },
   "dependencies": {
-    "gh-pages": "^6.3.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-router-dom": "^7.1.5",
