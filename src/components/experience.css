@@ -15,7 +15,7 @@
     text-shadow: 0 10px 20px rgba(0,0,0,.4);
     animation: appear linear;
     animation-timeline: view();
-    animation-range: entry 0 cover 40%;
+    animation-range: entry 0 cover 10%;
 }
 .exphead :nth-child(2){
     font-family: "Anton";
@@ -39,7 +39,7 @@
 
 @media screen and(max-width:768px){
     .exp{
-        background-color:whitesmoke;
+        background-color: whitesmoke;
         padding: 2rem;
         margin: 0;
     }
@@ -50,8 +50,8 @@
     }
     .exphead :nth-child(1){
         font-family: "Anton";
-        font-size: 3rem;
-        color: #550000;
+        font-size: 2rem;
+        color: black;
         text-shadow: 0 10px 20px rgba(0,0,0,.4);
         animation: appear linear;
         animation-timeline: view();
@@ -59,12 +59,12 @@
     }
     .exphead :nth-child(2){
         font-family: "Anton";
-        font-size: 2rem;
+        font-size: 1.5rem;
         color: black;
         text-shadow: 0 10px 20px rgba(0,0,0,.4);
         animation: appear linear;
         animation-timeline: view();
-        animation-range: entry 0 cover 30%;
+        animation-range: entry 0 cover 40%;
     }
     @keyframes appear {
         from{
