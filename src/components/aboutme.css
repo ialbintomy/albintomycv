@@ -42,7 +42,7 @@
     .aboutme{
         background-color: black;
         color: white;
-        min-height: 80vh;
+        min-height: 50vh;
         height: auto;
         padding: 2rem;
         margin-top: 20vh;
@@ -58,7 +58,7 @@
         color: #ffd700;
         animation: appear linear;
         animation-timeline: view();
-        animation-range: entry 0 cover 30%;
+        animation-range: entry 0 cover 40%;
     }
     .description p{
         font-weight: 500;
